@@ -1,0 +1,18 @@
+Que es INDEX (indice) en base de datos.
+Indicar beneficios y desventajas
+
+INDEX de base de datos:
+.-Es una estructura que se encuentra en la base de datos, se crea con
+  el comando "create index" para generarlo. Este index necesita espacio 
+  en disco y tiene una copia de la base de datos.
+Ventajas:
+.-Se logra evitar escaneos completos de las tablas. Asi no saturamos
+  de sobrecarga al cpu.
+.-Ayuda a no duplicar datos en las tablas.
+.-Mejora el tiempo de respuesta en una consulta.
+
+Desventajas:
+.-En tabla pequeñas alargan el tiempo de respuesta de una consulta.
+.-Ocupan espacio en memoria y aveces el espacio es más grande que los
+  datos de las tablas.
+
