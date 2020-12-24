@@ -12,4 +12,4 @@ opera = operation(listNumbers)
 # print results
 print(f'The list is : {listNumbers}')
 print(f'Sum : {opera.suma()}')
-print(f'Multi : {opera.multi()}')
+print(f'Multi : {opera.multip()}')
